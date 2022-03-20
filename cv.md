@@ -19,3 +19,6 @@ return arrRes.join(' ');
 2022 RS School Stage 0
 2009 Intourist school, guide-interpretor 
 2009, Saint-Petersburg State University, linguistics
+#language skills
+English - fluent 
+German - fluent
