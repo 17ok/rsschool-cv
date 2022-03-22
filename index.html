@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSschool CV</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="navigation">
+        <ul id="nav">
+            <li><a href="#contacts">Contacts </a></li>
+            <li><a href="#objective">Objective </a></li>
+            <li><a href="#work_experience">Work experience </a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#code">Code</a></li>
+            <li><a href="#language_skills">Language skills </a></li>
+        </ul>
+    </div>
+	<header class="header">
+        <div class="header_container">
+            <div class="header_photo">
+                <img src="./img/photo1.jpg" alt="photo" class="header_image">
+            </div>
+            <div class="header_content">
+                 <h1 class="header_title">
+                    Olga Kuznetsova
+                 </h1>
+                <h2 class="header_subtitle">
+                    Front-end developer
+                </h2>
+                </div>    
+         </div>
+    </header>
+    <div class="main-content">
+            <section class="contacts">
+                <h3 class="subtitle" id=contacts>
+                    Contacts </h3>
+                <ul>
+                <li>mob. +79211111111 </li> 
+                <li>email email@mail.ru </li>
+                <li>discourd RSschool Olga(@17ok)</li>
+               </ul>
+            </section>
+            <section class="objective" id=objective>
+                <h3 class="subtitle">
+                    Objective
+                </h3> 
+                <p>Enthusiastic multi-skilled reliable individual seeking a new career as trainee frontend developer. 12 years experience in high-pressure intercultural environment, managing wide-ranging client demands with lots decision-making and team collaboration.</p>
+            </section>
+            <section class="work experience" id=work_experience>
+                <h3 class="subtitle">
+                   Work experience
+                </h3> 
+                <ul>
+                <li> 2009 - present tour guide for English and German speaking tourists </li> 
+                <li>2010-2017 English language lecturer at SPbSU </li>
+               </ul>
+            </section>
+            <section class="education" id=education>
+            <h3 class="subtitle">
+                  Education
+                </h3> 
+                <ul>
+                <li>2022 - RS School Stage 0</li>
+                <li> 2009 - Saint-Petersburg State University, linguistics </li> 
+                <li> 2009 - Intourist school, guide-interpretor </li>
+               </ul>
+            </section>
+            <section class="code" id=code>
+                <h3 class="subtitle">
+                      Code
+                    </h3> 
+                    <code>
+                        function toWeirdCase(string){<br>
+                        let arr = string.toLowerCase().split(' ');<br>
+                         let arrRes  = arr.map((item) => item.split('').map ((character, index) =><br>
+                                     index % 2 === 0 ? character.toUpperCase() : character).join('')) <br>
+                       return arrRes.join(' ');
+                    </code>
+                </section>
+            <section class="language skills" id=language_skills>
+                <h3 class="subtitle">
+                  Language skills
+                </h3> 
+               <ul>
+                <li> English - C1 </li> 
+                <li> German - C1 </li>
+                <li> Russian - native</li>
+               </ul>
+            </section>
+    </div>
+    <footer class = "footer">
+        <ul class="footer-content">
+           <li> <a href="https://github.com/17ok" id="github"> GitHub </a > </li>
+           <li>2022</li>
+           <li><a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" alt="rs school logo" id="rsschool-logo" /></a></li>            
+        </ul>
+    </footer>
+</body>
+</html>
