@@ -1,0 +1,119 @@
+/*CSS stylesheet*/
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #add8e6;
+    width: 100%;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: #e6e0d4;
+  }
+
+#nav li{
+    display: inline-block;
+}
+  
+#nav {
+    border: 2px solid #add8e6;
+    width:auto;
+    text-align: center;
+    text-decoration:none;
+}
+#nav a:hover {
+    color:#00008b;
+}
+
+.nav a.active {
+    color:#e6e0d4;
+}  
+
+
+.header {height: 300px;
+    
+   width: 100%;
+    max-height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e6e0d4;
+    color: #2d2d2d;
+  }
+  
+.header_container{
+    display: flex;
+    justify-content: center;
+}
+.header_photo {
+    height:280px;
+    margin-right: 110px;
+  }
+
+.header_photo img {
+    height:280px;
+    border-radius: 130px;
+  }
+
+.header_title {
+    font-size: 30px;
+    font-weight: 800;
+    color:#00008b;
+    display: flex;
+    padding-right: 20px;
+    align-items: flex-end;
+
+  }
+
+.header_subtitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #00008b;
+  }
+    
+.main-content {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight: 600;
+    color:#bc8f8f;
+}
+ 
+  
+* {
+    scroll-behavior: smooth;
+}
+
+
+.footer {
+    background-color: #e6e0d4;
+  }
+  
+.footer-content {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#bc8f8f;
+  }
+  
+#github {
+    display: block;
+    text-decoration: none;
+  }
+
+#rsschool-logo {
+    display: block;
+    width: 100px;
+  }
